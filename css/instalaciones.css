@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.titulo {
+    color:#4e7cbc;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Header */
+
+header {
+    width: 100%;
+    height: 500px;
+    background:#e8edf1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(220, 82%, 54%, 0.95), hsla(270, 10%, 92%, 0.664)), url(../img/WhatsApp\ Image\ 2022-12-14\ at\ 8.17.05\ AM.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(224, 81%, 68%, 0.843), hsla(249, 5%, 75%, 0.664)), url(../img/WhatsApp\ Image\ 2022-12-14\ at\ 8.17.05\ AM.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:black
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+.wave{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+.contenido-textos h3 span{
+    background: #002B5B;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+table {
+    font-family:'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #f8f8f8;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fdfcfc;
+  }
+
+
+/*CAROUSEL IMAGENES*/
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body { 
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #ebe6ea 50%,#ebe6ea 50%);
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .titulo01 {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    color: rgb(5, 5, 5);
+  }
+  
+  .jae { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+  }
+  
+  .linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+  }
+  /*Estilo de materialize*/
+  .carousel{
+    min-height: 500px;
+  }
+  .carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    user-select: none;
+    
+    width: 500px;
+    height: 500px;
+  
+  }
+  .carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius:15px ;
+  }
+  /*FOOTTER*/
+footer{
+    background: #002B5B;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    
+  }
+  
+  .contenedor-footer01{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  
+  .content-foo01{
+    text-align: center;
+    
+  }
+  
+  .content-foo {
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .content-foo{
+    color: #ccc;
+  }
+  
+  .titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+  }
+  
+  .content-foo h4{
+    font-size: 24px;
+    font-weight: 100;
+  }
+  /*MENU*/
+#nav-p{
+    background-color: #0cb50f;
+    
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  #nav-p ul li a {
+    border-radius: 5px;
+    
+  }
+  #nav-p ul li a:hover {
+    background: #262690;
+    transition: .5s;
+  }
+  #contenerdor-n{
+    margin-right: 10px;
+    margin-left: 45px;
+  }
